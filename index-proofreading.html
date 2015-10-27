@@ -55,6 +55,7 @@
   <div class="container">
     <h1>青空文庫作業マニュアル【校正編】</h1>
     <p class="lead" style="font-size:18px;">青空文庫形式のテキストファイルを作るためのマニュアルです。</p>
+  </div>
 </header>
 
 
@@ -174,7 +175,7 @@
 <p class="lead">旧字のファイルに紛れ込んだ、新字や俗字を、「<a href="http://www.aozora.jp/kouetsukun/replace.cgi" target="_blank">校閲君</a>」でチェックできます。旧字作品はかならず、校閲君を通してください。</p>
 <p class="lead">「校閲君」が置き換え候補を示したら、その字が底本でどうなっているか、確認してください。底本の字がファイル通りであれば、そのままにしてください。異なっていれば、ファイルの字を底本通りに修正してください。</p>
 <p class="lead">「校閲君」の詳しい使い方は、「<a href="http://www.aozora.gr.jp/tools/kouetsukun/" target="_blank">旧字ファイルの新字・俗字を、校閲君で洗い出そう！</a>」で説明しています。</p>
-<p class="lead">青空文庫で使えない文字は、外字注記で入力します。外字注記の詳細は、「<a href="http://www.aozora.gr.jp/annotation/" target="_blank">注記一覧</a>」の「<a href="http://www.aozora.gr.jp/annotation/external_character.html" target="_blank">外字</a>」を参照してください。どの文字を、どう外字注記するかは、<a href="http://www.aozora.gr.jp/gaiji_chuki/" target="_blank">このページから</a>ダウンロードできる「外字注記辞書」に網羅されています。あらかじめ「外字注記辞書」を引き落とした上で、校正に取りかかってください。</a>。</p>
+<p class="lead">青空文庫で使えない文字は、外字注記で入力します。外字注記の詳細は、「<a href="http://www.aozora.gr.jp/annotation/" target="_blank">注記一覧</a>」の「<a href="http://www.aozora.gr.jp/annotation/external_character.html" target="_blank">外字</a>」を参照してください。どの文字を、どう外字注記するかは、<a href="http://www.aozora.gr.jp/gaiji_chuki/" target="_blank">このページから</a>ダウンロードできる「外字注記辞書」に網羅されています。あらかじめ「外字注記辞書」を引き落とした上で、校正に取りかかってください。</p>
 
 </section>
 
@@ -228,7 +229,7 @@
 <p class="lead">▼ルビ中の拗促音が小書きされていないものをチェックする。（正しく並みで使われているものもチェックされます。）</p>
 <p class="lead">　　《[^《》]*?[つやゆよヤヨツユ][^《》]*?》</p>
 <p class="lead">▼誤入力の可能性の高い、半角の丸括弧「()」と角括弧「[]」をチェックする。</p>
-<p class="lead">　　　[^U][\?\!\#-\&\(-\+\<-\>\[-\]|]</p>
+<p class="lead">　　　[^U][\?\!\#-\&amp;\(-\+\&lt;-\&gt;\[-\]|]</p>
 <p class="lead">▼使われることのまれな文字をチェックする。</p>
 <p class="lead">　　　[′．･，‥－｢♯□｣､]</p>
 <p class="lead">▼OCRの読み取りミスや誤入力が生じやすい文字をチェックする。（以下で用いられている「|」は、検索語の区切りです。全体をコピーし、検索ウインドウにペーストします。ヒットしたものに誤りの可能性を感じたら、底本を確認してください。）</p>
