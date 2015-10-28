@@ -1,0 +1,12 @@
+{
+  "name": "aozora-manual",
+  "license": "CC BY-NC 2.1 JP",
+  "private": true,
+  "devDependencies": {
+    "mocha": "^2.3.3",
+    "w3cjs": "^0.3.0"
+  },
+  "scripts": {
+    "test": "mocha --timeout 10000"
+  }
+}
